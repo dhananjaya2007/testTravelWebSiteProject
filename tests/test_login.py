@@ -24,3 +24,5 @@ class TestLogin:
         register_success_lbl = register_success_page.get_register_success_label()
         assert register_success_lbl.__contains__(username_password[0]), "User registration failed!"
         # new comment
+        # new comment dev branch
+
