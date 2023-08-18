@@ -1,7 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-
+# base page
 class BasePage:
 
     def __init__(self, driver):
@@ -16,3 +16,4 @@ class BasePage:
 
     def find_element(self, locator_type_and_locator_tuple):
         return self.driver.find_element(*locator_type_and_locator_tuple)
+

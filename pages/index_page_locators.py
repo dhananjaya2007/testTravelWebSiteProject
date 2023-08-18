@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-
+# index locators
 class IndexPageLocators:
 
     REGISTER_LINK = (By.XPATH, "//a[text()='REGISTER']")
